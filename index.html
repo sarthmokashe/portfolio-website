@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarth's Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(187, 168, 224);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(43, 34, 66);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+
+      nav ul li a:hover {
+        color: rgb(141, 141, 185);
+        font-size: 1.04rem;
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(22, 22, 32);
+        height: 1.3px;
+        width: 1500px;
+        margin: 2 0px auto;
+        justify-content: space-around;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+
+      .firstsection > div {
+        width: 40%;
+      }
+
+      .leftsection {
+        font-size: 3rem;
+        margin: 10px 0;
+        color: black;
+        font: bold;
+      }
+      .leftsection .btn{
+        padding: 12px;
+        background-color: #6768ab;
+        color: black;
+        border-radius: 6px;
+        border: 2px solid black;
+        font-size: 20px;
+        cursor: pointer;
+        gap: 10px;
+        margin-top: 20px;
+        text-decoration: none;
+
+
+      }
+
+      .rightsection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgba(94, 36, 145, 0.943);
+      }
+
+      #element {
+        color: rgba(94, 36, 145, 0.943);
+      }
+
+      .secondsection {
+        max-width: 80vw;
+        margin: 70px;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 1.5rem;
+        color: black;
+      }
+      .text-grey {
+        color: rgb(43, 38, 54);
+      }
+      .secondsection .box {
+        background: rgb(0, 0, 0);
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        justify-content: space-around;
+        width: 1px;
+        background-color: rgb(0, 0, 0);
+        margin: 0 100px;
+      }
+      
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -35px;
+        left: -10px;
+      }
+
+      .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 150px;
+      color: black;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: rgb(71, 70, 70);
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color: rgb(43, 34, 66);
+        
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        color: white;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+      footer ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      footer ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: rgb(86, 79, 97);
+        padding: 12px 0;
+        text-decoration: none;
+        list-style: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left"><ul><li><a href="index.html">Sarth's portfolio</a></li></ul></div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Sarth</span>
+          <div>and i am a Passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="Resume.png" target="_blank">
+              <button class="btn">View Resume</button>
+            </a>
+            <a href="https://github.com/sarthmokashe" target="_blank">
+              <button class="btn">Visit Github</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="rightsection img"><img src="bg.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey"> What have i done past </span>
+
+        <h1>Work Experiance</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="HTML.png" alt="" />
+            <div class="vertical-title">
+              HTML Developer (2026)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic, accusamus, quasi blanditiis nam veniam saepe iste doloremque suntalias, libero sint obcaecati!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="python.png " alt="" />
+            <div class="vertical-title">
+               Python Developer (2026)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic, accusamus, quasi blanditiis nam veniam saepe iste doloremque suntalias, libero sint obcaecati!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="verilog.png" alt="" />
+            <div class="vertical-title">
+              Embeded system (2026)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic, accusamus, quasi blanditiis nam veniam saepe iste doloremque suntalias, libero sint obcaecati!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="verilog.png" alt="" />
+            <div class="vertical-title">
+              Verilog Developer (2026)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic, accusamus, quasi blanditiis nam veniam saepe iste doloremque suntalias, libero sint obcaecati!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="davinchi.png" alt="" />
+            <div class="vertical-title">
+              Video Editor (2026)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic, accusamus, quasi blanditiis nam veniam saepe iste doloremque suntalias, libero sint obcaecati!
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Sarth's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+            <li>+91-7558433763</li>
+            <li>
+              <a
+              href="https://www.linkedin.com/in/sarth-mokashe-489a35379/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            </li>
+            <li><a href="https://instagram.com/sarth.m_3" target="_blank">
+              Instagram
+            </a></li>
+            <li><a href="https://github.com/sarthmokashe" target="_blank">
+              GitHub
+            </a></li>
+        </div>
+      </div>
+       <div class="footer-rights">
+           <a href="copyright.html">Coppyright &#169; sarthsportfolio.com | All rights reserved</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["VLSI Engineer.", "Web Developer.", "Video Editor."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

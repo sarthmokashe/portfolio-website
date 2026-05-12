@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - Sarth</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(187, 168, 224);
+        color: black;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 80px;
+        background-color: rgb(43, 34, 66);
+      }
+
+      nav .logo {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin-left: 30px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: 0.3s;
+      }
+
+      nav ul li a:hover {
+        color: rgb(180, 180, 255);
+      }
+
+      .contact-section {
+        max-width: 1200px;
+        margin: auto;
+        padding: 80px 40px;
+      }
+
+      .contact-section h1 {
+        text-align: center;
+        font-size: 4rem;
+        color: rgb(72, 32, 120);
+        margin-bottom: 20px;
+      }
+
+      .contact-section p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        line-height: 1.8;
+      }
+
+      .contact-container {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .contact-info {
+        flex: 1;
+        min-width: 300px;
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-info h2 {
+        margin-bottom: 20px;
+        color: rgb(72, 32, 120);
+      }
+
+      .contact-info p {
+        text-align: left;
+        margin-bottom: 20px;
+        font-size: 1rem;
+      }
+
+      .contact-form {
+        flex: 1;
+        min-width: 300px;
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-form h2 {
+        margin-bottom: 20px;
+        color: rgb(72, 32, 120);
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+
+      .contact-form textarea {
+        resize: none;
+        height: 150px;
+      }
+
+      .contact-btn {
+        background-color: rgb(72, 32, 120);
+        color: white;
+        padding: 14px 25px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .contact-btn:hover {
+        background-color: rgb(52, 20, 90);
+      }
+
+      .social-links {
+        margin-top: 20px;
+      }
+
+      .social-links a {
+        display: inline-block;
+        margin-right: 15px;
+        text-decoration: none;
+        color: rgb(72, 32, 120);
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .social-links a:hover {
+        color: black;
+      }
+
+      footer {
+        text-align: center;
+        padding: 25px;
+        background-color: rgb(43, 34, 66);
+        color: white;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo"><ul><li><a href="index.html">Sarth's portfolio</a></li></ul></div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+
+    <section class="contact-section">
+      <h1>Contact Me</h1>
+
+      <p>
+        Have a project idea, collaboration, or just want to connect? Feel free
+        to reach out through the form or social platforms.
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+
+          <p>
+            I am always open to discussing new opportunities, creative ideas,
+            and exciting tech projects.
+          </p>
+
+          <p><strong>Email:</strong> sarth.vm11@gmail.com</p>
+
+          <p><strong>Location:</strong> pune, Maharashtra</p>
+
+          <div class="social-links">
+            <a href="https://github.com/sarthmokashe" target="_blank">
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/sarth-mokashe-489a35379/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+
+            <a href="https://instagram.com/sarth.m_3" target="_blank">
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Send Message</h2>
+
+          <form>
+            <form
+              action="https://formsubmit.co/mokashesarth@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+
+              <input type="text" name="name" placeholder="Your Name" required />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="copyright.html">© 2026 Sarth's Portfolio | All Rights Reserved</a>
+    </footer>
+  </body>
+</html>

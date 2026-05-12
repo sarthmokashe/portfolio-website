@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Sarth</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(187, 168, 224);
+        color: black;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 80px;
+        background-color: rgb(43, 34, 66);
+      }
+
+      nav .logo {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin-left: 30px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: 0.3s;
+      }
+
+      nav ul li a:hover {
+        color: rgb(180, 180, 255);
+      }
+
+      .services-section {
+        max-width: 1200px;
+        margin: auto;
+        padding: 80px 40px;
+      }
+
+      .services-section h1 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 20px;
+        color: rgb(72, 32, 120);
+      }
+
+      .services-section p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 60px;
+        line-height: 1.8;
+      }
+
+      .service-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+      }
+
+      .service-card {
+        background-color: white;
+        padding: 35px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+
+      .service-card:hover {
+        transform: translateY(-10px);
+      }
+
+      .service-card h2 {
+        margin-bottom: 20px;
+        color: rgb(72, 32, 120);
+      }
+
+      .service-card p {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+
+      .service-btn {
+        display: inline-block;
+        padding: 12px 22px;
+        background-color: rgb(72, 32, 120);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: 0.3s;
+      }
+
+      .service-btn:hover {
+        background-color: rgb(52, 20, 90);
+      }
+
+      footer {
+        text-align: center;
+        padding: 25px;
+        background-color: rgb(43, 34, 66);
+        color: white;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <ul>
+          <li><a href="index.html">Sarth's portfolio</a></li>
+        </ul>
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+
+    <section class="services-section">
+      <h1>My Services</h1>
+
+      <p>
+        I provide creative and technical services focused on development,
+        design, and technology. Here are some areas where I can help.
+      </p>
+
+      <div class="service-container">
+        <div class="service-card">
+          <h2>Web Development</h2>
+
+          <p>
+            Modern and responsive websites using HTML, CSS, and frontend
+            technologies with clean UI designs.
+          </p>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Web_development"
+            class="service-btn"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <h2>Python Programming</h2>
+
+          <p>
+            Python-based projects, beginner scripts, automation ideas, and
+            logic-building programs.
+          </p>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Python_(programming_language)"
+            class="service-btn"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <h2>VLSI & Verilog</h2>
+
+          <p>
+            Digital logic design, Verilog coding, circuit concepts, and
+            hardware-based learning projects.
+          </p>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Very-large-scale_integration"
+            class="service-btn"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <h2>Video Editing</h2>
+
+          <p>
+            Creative edits, reels, transitions, cinematic cuts, and aesthetic
+            visual storytelling.
+          </p>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Video_editing"
+            class="service-btn"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="service-card">
+          <h2>Portfolio Design</h2>
+
+          <p>
+            Personal portfolio websites with modern layouts, smooth sections,
+            and responsive design.
+          </p>
+
+          <a href="index.html" class="service-btn">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <h2>Creative Content</h2>
+
+          <p>
+            Social media visuals, aesthetic concepts, creative branding, and
+            digital presentation ideas.
+          </p>
+
+          <a href="https://www.instagram.com/sarth.m_3/" class="service-btn"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="copyright.html"
+        style="text-decoration: none; color: rgb(72, 53, 99);
+        ">© 2026 Sarth's Portfolio | All Rights Reserved</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Sarth</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: 'Poppins', sans-serif;
+      background-color: rgb(187, 168, 224);
+      color: black;
+    }
+
+    nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 80px;
+      background-color: rgb(43, 34, 66);
+    }
+
+    nav .logo{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul{
+      display: flex;
+      list-style: none;
+    }
+
+    nav ul li{
+      margin-left: 30px;
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover{
+      color: rgb(180, 180, 255);
+    }
+
+    .projects-section{
+      max-width: 1200px;
+      margin: auto;
+      padding: 80px 40px;
+    }
+
+    .projects-section h1{
+      text-align: center;
+      font-size: 4rem;
+      color: rgb(72, 32, 120);
+      margin-bottom: 20px;
+    }
+
+    .projects-section p{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 60px;
+      line-height: 1.8;
+    }
+
+    .project-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card{
+      background-color: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .project-card:hover{
+      transform: translateY(-10px);
+    }
+
+    .project-image{
+      width: 100%;
+      height: 220px;
+      object-fit: scale-down;
+    }
+
+    .project-content{
+      padding: 25px;
+    }
+
+    .project-content h2{
+      color: rgb(72, 32, 120);
+      margin-bottom: 15px;
+    }
+
+    .project-content p{
+      text-align: left;
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .project-btn{
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: rgb(72, 32, 120);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .project-btn:hover{
+      background-color: rgb(52, 20, 90);
+    }
+
+    footer{
+      text-align: center;
+      padding: 25px;
+      background-color: rgb(43, 34, 66);
+      color: white;
+      margin-top: 50px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+
+    <div class="logo">
+    <ul><li><a href="index.html">Sarth's portfolio</a></li></ul>
+    </div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact me</a></li>
+    </ul>
+
+  </nav>
+
+  <section class="projects-section">
+
+    <h1>My Projects</h1>
+
+    <p>
+      Here are some projects that showcase my skills,
+      creativity, and passion for technology and development.
+    </p>
+
+    <div class="project-container">
+
+      <div class="project-card">
+
+        <img src="HTML JS CSS .png" alt="Portfolio Project" class="project-image">
+
+        <div class="project-content">
+
+          <h2>Developer Portfolio</h2>
+
+          <p>
+            A modern responsive personal portfolio website
+            created using HTML and CSS with smooth layouts
+            and aesthetic design.
+          </p>
+
+          <a href="index.html" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="python pro.png" alt="Python Project" class="project-image">
+
+        <div class="project-content">
+
+          <h2>Python Mini Projects</h2>
+
+          <p>
+            Collection of beginner-friendly Python projects
+            focused on logic building and problem solving.
+          </p>
+
+          <a href="wip.html" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="verilog.webp" alt="VLSI Project" class="project-image">
+
+        <div class="project-content">
+
+          <h2>Verilog Logic Design</h2>
+
+          <p>
+            Digital logic implementation using Verilog
+            including gates, testbenches, and simulation concepts.
+          </p>
+
+          <a href="https://github.com/sarthmokashe/VLSI-Logic-Gates-Project.git" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="davinchi.png" alt="Video Editing" class="project-image">
+
+        <div class="project-content">
+
+          <h2>Video Editing Showcase</h2>
+
+          <p>
+            Creative reels, cinematic edits,
+            transitions, and aesthetic visual storytelling projects.
+          </p>
+
+          <a href="wip.html" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="front-end.png" alt="Frontend Project" class="project-image">
+
+        <div class="project-content">
+
+          <h2>Frontend UI Designs</h2>
+
+          <p>
+            Multiple frontend interfaces designed
+            with responsive layouts and modern UI concepts.
+          </p>
+
+          <a href="wip.html" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="content.png" alt="Creative Project" class="project-image">
+
+        <div class="project-content">
+
+          <h2>Creative Digital Content</h2>
+
+          <p>
+            Social media graphics, branding ideas,
+            and aesthetic content creation projects.
+          </p>
+
+          <a href="wip.html" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <a href="copyright.html">© 2026 Sarth's Portfolio | All Rights Reserved</a>
+  </footer>
+
+</body>
+</html>
